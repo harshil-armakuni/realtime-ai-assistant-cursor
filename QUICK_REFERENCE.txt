@@ -1,0 +1,110 @@
+╔══════════════════════════════════════════════════════════════════╗
+║             AI MEETING ASSISTANT - QUICK REFERENCE               ║
+╚══════════════════════════════════════════════════════════════════╝
+
+📋 SETUP (First Time Only)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. nano .env          → Add API key
+2. ./setup.sh         → Install dependencies (optional, already done)
+
+🚀 START APPLICATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+./start_all.sh        → Start everything (recommended)
+./start_backend.sh    → Backend only (port 8000)
+./start_frontend.sh   → Frontend only (port 5173)
+
+🌐 ACCESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Frontend:  http://localhost:5173
+Backend:   http://localhost:8000
+API Docs:  http://localhost:8000/docs
+
+🎤 USAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Click "Start Recording"
+2. Allow microphone access
+3. Speak naturally
+4. Watch AI respond!
+
+📁 KEY FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+backend/main.py       → Backend code
+frontend/src/App.jsx  → Frontend code
+.env                  → Your API key here!
+storage/screenshots/  → Screen captures saved here
+
+📖 DOCUMENTATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+START_HERE.md         → Start here (orientation)
+QUICKSTART.md         → 3-step setup
+USAGE.md              → Detailed usage guide
+PROJECT_INFO.md       → Technical details
+README.md             → Full documentation
+
+🐛 TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+cat .env                           → Check API key
+curl http://localhost:8000/        → Test backend
+sudo lsof -t -i:8000 | xargs kill  → Kill backend
+sudo lsof -t -i:5173 | xargs kill  → Kill frontend
+
+⌨️ KEYBOARD SHORTCUTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Ctrl+C        → Stop application
+F12           → Browser console (for debugging)
+
+🎯 EXAMPLE QUESTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"What is artificial intelligence?"
+"How does blockchain work?"
+"Explain machine learning"
+"What's the difference between SQL and NoSQL?"
+
+🌍 LANGUAGES SUPPORTED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ English (en-US)
+✅ Hindi (hi-IN) - हिन्दी
+✅ Gujarati (gu-IN) - ગુજરાતી
+
+⚙️ CONFIGURATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Screen capture:  Every 2 seconds (configurable)
+Screenshot save: storage/screenshots/
+Backend port:    8000
+Frontend port:   5173
+
+📊 FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ Real-time transcription
+✅ Screen capture (every 2s)
+✅ Question auto-detection
+✅ Brief/detailed answers
+✅ Multi-language support
+✅ Beautiful modern UI
+✅ Local storage
+✅ Audio visualization
+
+🔐 SECURITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ API key in .env (not in git)
+✅ Screenshots stored locally
+✅ No third-party tracking
+✅ HTTPS to OpenAI only
+
+💡 PRO TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+• Use Chrome for best experience
+• Clear storage/screenshots/ periodically
+• Check browser permissions if audio fails
+• View responses in right panel
+
+🆘 NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Read USAGE.md (troubleshooting section)
+2. Check browser console (F12)
+3. Check backend terminal logs
+4. Verify .env has valid API key
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Version: 1.0.0 | License: MIT | Built with ❤️
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
