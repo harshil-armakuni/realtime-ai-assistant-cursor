@@ -1,1 +1,16 @@
 .env
+node_modules/
+.venv/
+backend/screenshots/
+*.pyc
+__pycache__/
+dist/
+build/
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+frontend/dist/
+frontend/build/
